@@ -1,11 +1,14 @@
 a, b, c = list(map(int,input().split()))
 
-if a >= b or a >= c:
-    if a >= b or a >= c:
+if a >= b:
+    if a>=c:
         print(a)
-elif b >= a or b >= c:
-    if b >= a and b >= c:
+    else:print(c)
+elif b>=a:
+    if b>=c:
         print(b)
-elif c >= a or c >= a:
-    if c >= a and c >= b:
+    else:print(c)
+elif c>=a:
+    if c>b:
         print(c)
+    else:print(b)
